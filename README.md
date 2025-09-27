@@ -13,16 +13,16 @@
 ---
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MoreiraGabryel&hide_title=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="Estatísticas do GitHub" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MoreiraGabryel&hide_title=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="GitHub Stats" />
   
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MoreiraGabryel&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=gruvbox_light&hide_border=false&custom_title=Minhas Linguagens" height="150" alt="Gráfico de Linguagens" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MoreiraGabryel&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=gruvbox_light&hide_border=false&custom_title=My Top Languages" height="150" alt="Languages Graph" />
   
-  <img src="https://streak-stats.demolab.com?user=MoreiraGabryel&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="Gráfico de Streak" />
+  <img src="https://streak-stats.demolab.com?user=MoreiraGabryel&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="Streak Graph" />
 </div>
 
 ---
 
-<h2 align="center">Minhas Habilidades</h2>
+<h2 align="center">My Skills</h2>
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="Java logo" />
@@ -37,7 +37,7 @@
 
 ---
 
-<h2 align="center">Conecte-se Comigo</h2>
+<h2 align="center">Connect With Me</h2>
 
 <div align="center">
   <a href="https://www.instagram.com/gabr_yel2/" target="_blank">
@@ -56,5 +56,5 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MoreiraGabryel/MoreiraGabryel/output/snake.svg" alt="Animação do jogo Snake" />
+  <img src="https://raw.githubusercontent.com/MoreiraGabryel/MoreiraGabryel/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
