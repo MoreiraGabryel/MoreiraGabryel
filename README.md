@@ -15,7 +15,6 @@
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=MoreiraGabryel&hide_title=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=bento&locale=en&hide_border=false" height="150" alt="GitHub Stats" />
   
-  <img src="https://skillicons.dev/html?i=java,javascript,html,css" height="150" alt="Top Linguagens Estáticas" />
   
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MoreiraGabryel&theme=dracula" height="150" alt="GitHub Status Card" />
 </div>
