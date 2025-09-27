@@ -13,11 +13,11 @@
 ---
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MoreiraGabyrel&hide_title=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="Estatísticas do GitHub" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MoreiraGabryel&hide_title=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="Estatísticas do GitHub" />
   
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MoreiraGabyrel&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=gruvbox_light&hide_border=false&custom_title=Minhas Linguagens" height="150" alt="Gráfico de Linguagens" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MoreiraGabryel&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=gruvbox_light&hide_border=false&custom_title=Minhas Linguagens" height="150" alt="Gráfico de Linguagens" />
   
-  <img src="https://streak-stats.demolab.com?user=MoreiraGabyrel&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="Gráfico de Streak" />
+  <img src="https://streak-stats.demolab.com?user=MoreiraGabryel&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="Gráfico de Streak" />
 </div>
 
 ---
