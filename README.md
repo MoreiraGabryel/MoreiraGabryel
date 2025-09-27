@@ -13,11 +13,11 @@
 ---
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MoreiraGabryel&hide_title=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MoreiraGabryel&hide_title=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=bento&locale=en&hide_border=false" height="150" alt="GitHub Stats" />
   
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MoreiraGabryel&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=gruvbox_light&hide_border=false&custom_title=My Top Languages" height="150" alt="Languages Graph" />
+  <img src="https://skillicons.dev/html?i=java,javascript,html,css" height="150" alt="Top Linguagens Estáticas" />
   
-  <img src="https://streak-stats.demolab.com?user=MoreiraGabryel&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="Streak Graph" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MoreiraGabryel&theme=dracula" height="150" alt="GitHub Status Card" />
 </div>
 
 ---
@@ -52,9 +52,3 @@
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="LinkedIn logo" />
   </a>
 </div>
-
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MoreiraGabryel/MoreiraGabryel/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</p>
