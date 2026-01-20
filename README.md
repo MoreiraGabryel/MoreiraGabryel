@@ -14,7 +14,7 @@
 ---
 ### 🕹️ Desafio: Jogo da Velha 
 
-Eu te desafio a ganhar de mim. **Dica:** Eu nunca perco. 🤖
+Eu te desafio a ganhar de mim. “Clique em um espaço vazio e depois em Submit new issue para jogar.”
 
 | | | |
 | :---: | :---: | :---: |
@@ -22,7 +22,6 @@ Eu te desafio a ganhar de mim. **Dica:** Eu nunca perco. 🤖
 | ❌ | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:1,2) |
 | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:2,0) | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:2,1) | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:2,2) |
 
-**Status: **Status:** Sua vez!
   
   
 
