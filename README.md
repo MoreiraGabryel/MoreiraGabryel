@@ -12,8 +12,6 @@
 
 ---
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MoreiraGabryel&hide_title=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=bento&locale=en&hide_border=false" height="150" alt="GitHub Stats" />
   
   
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MoreiraGabryel&theme=dracula" height="150" alt="GitHub Status Card" />
@@ -28,9 +26,9 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="SqlServer Logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="SqlLogo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="SpringBoot Javalogo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="SpringBoot logo" />
   <img width="12" />
 </div>
 
