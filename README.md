@@ -27,15 +27,40 @@ Clique para jogar
 
 Ao clicar em um espaço vazio, você será levado para a página de criação de uma nova Issue.
 
-O título da Issue já vem preenchido com a coordenada da jogada (ex.: tttp:0,2).
+
 
 Confirme sua jogada
 
 Basta clicar em “Submit new issue”.
 
-Isso dispara o GitHub Actions, que executa o motor do jogo (engine.py).
+📌 O que é tttp:0,2
+Esse texto é o título da Issue que o workflow usa para saber qual jogada você fez.
 
-IA responde automaticamente
+tttp é só um prefixo que você definiu no código (if "tttp:" not in issue_title:).
+Ele serve para identificar que a Issue é uma jogada do jogo da velha.
+
+0,2 são as coordenadas da célula do tabuleiro onde você quer jogar.
+
+🧩 Como funcionam as coordenadas
+O tabuleiro é uma matriz 3x3, numerada assim:
+
+Código
+(0,0) | (0,1) | (0,2)
+(1,0) | (1,1) | (1,2)
+(2,0) | (2,1) | (2,2)
+O primeiro número é a linha (de cima para baixo).
+
+O segundo número é a coluna (da esquerda para a direita).
+
+Então:
+
+tttp:0,2 → linha 0, coluna 2 → canto superior direito.
+
+tttp:1,0 → linha 1, coluna 0 → meio à esquerda.
+
+tttp:2,2 → linha 2, coluna 2 → canto inferior direito.
+
+
 
 O script atualiza o README.md com sua jogada (❌) e a resposta da IA (⭕).
 
@@ -45,7 +70,6 @@ Tabuleiro atualizado no perfil
 
 Após alguns segundos, o tabuleiro atualizado aparece no meu perfil.
 
-Você verá sua jogada e a resposta da IA.
 | | | |
 | :---: | :---: | :---: |
 | ⭕ | ⭕ | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:0,2) |
