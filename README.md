@@ -11,11 +11,23 @@
 </p>
 
 ---
+### 🕹️ Desafio: Jogo da Velha (Tic-Tac-Toe)
+Eu te desafio a ganhar de mim. **Dica:** Eu nunca perco. 🤖
+
+| | | |
+| :---: | :---: | :---: |
+| ❌ | ⭕ | ❌ |
+| [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:0,1) | ❌ | [ ](https://github.com/MoreiraGabryel/MoreiraGabryelissues/new?title=tttp:1,2) |
+| ⭕ | [ ](https://github.com/MoreiraGabryel/issues/new?title=tttp:2,1) | ⭕ |
+
+> **Status:** Sua vez! Clique em um espaço vazio para jogar.
+> **Mensagem do Sistema:** *Aguardando sua derrota...*
+
+---
+
 
   
   
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MoreiraGabryel&theme=dracula" height="150" alt="GitHub Status Card" />
-</div>
 
 ---
 
