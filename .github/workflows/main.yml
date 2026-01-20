@@ -11,21 +11,24 @@ jobs:
       contents: write
       issues: write
     steps:
-      - name: Checkout
+      - name: Checkout do Código
         uses: actions/checkout@v3
 
-      - name: Setup Python
+      - name: Configurar Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      - name: Rodar Jogada da IA
+      - name: Executar Jogada
         run: python scripts/engine.py
         env:
           ISSUE_TITLE: ${{ github.event.issue.title }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Fechar Issue
-        run: gh issue close ${{ github.event.issue.number }} --comment "Jogada realizada!"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Salvar Mudanças no Perfil
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "🤖 IA realizou uma jogada" || echo "Sem mudanças para salvar"
+          git push
