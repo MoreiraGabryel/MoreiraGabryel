@@ -97,7 +97,7 @@ def main():
     winner = check_winner(board_data)
     if winner == 1:
         status = "**Status:** Fim de jogo."
-        msg = "**Mensagem do Sistema:** `eu sempre ganho 🤖`"
+        msg = "**Mensagem do Sistema:** `eu sempre Venço"
     elif not any(' ' in r for r in board_data):
         status = "**Status:** Empate!"
         msg = "**Mensagem do Sistema:** *Você foi um bom oponente.*"
