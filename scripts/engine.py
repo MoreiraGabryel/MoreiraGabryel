@@ -1,44 +1,50 @@
 import os
 import re
+import sys
 
 def main():
+    # 1. Pega o título da Issue (ex: tttp:1,1)
     issue_title = os.getenv("ISSUE_TITLE", "")
-    if not issue_title.startswith("tttp:"):
+    if "tttp:" not in issue_title:
+        print("Título inválido")
         return
 
-    move = issue_title.split(":")[1].split(",")
-    row, col = int(move[0]), int(move[1])
+    # Extrai a coordenada
+    move = issue_title.split("tttp:")[1].strip()
+
+    # 2. Abre o README
+    if not os.path.exists("README.md"):
+        print("README.md não encontrado")
+        return
 
     with open("README.md", "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Link exato que está no seu README
-    user_link = f"https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:{row},{col}"
-    user_pattern = rf"\[ \]\({re.escape(user_link)}\)"
-
-    # Se achar o espaço vazio, coloca o X
-    if re.search(user_pattern, content):
-        content = re.sub(user_pattern, "❌", content)
+    # 3. Procura o link exato e substitui por X
+    # Usamos re.escape para não dar erro com os caracteres do link
+    pattern = rf"\[\s*\]\(.*?title=tttp:{move}\)"
+    
+    if re.search(pattern, content):
+        content = re.sub(pattern, "❌", content)
         
-        # Jogada da IA (Simples para teste: pega o próximo vago)
-        ia_prioridades = ["1,1", "0,0", "0,2", "2,0", "2,2", "0,1", "1,0", "1,2", "2,1"]
-        for pos in ia_prioridades:
-            ia_link = f"https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:{pos}"
-            ia_pattern = rf"\[ \]\({re.escape(ia_link)}\)"
-            if re.search(ia_pattern, content):
-                content = re.sub(ia_pattern, "⭕", content)
-                break
-
-    # Atualiza o status
-    if "[ ]" not in content:
-        status_msg = "**Status:** Fim de jogo. `eu sempre ganho 🤖`"
+        # 4. Jogada da IA: Procura o primeiro espaço vazio e coloca O
+        ia_pattern = r"\[\s*\]\(.*?title=tttp:.*?\)"
+        if re.search(ia_pattern, content):
+            content = re.sub(ia_pattern, "⭕", content, count=1)
+            status_msg = "**Status:** Sua vez!"
+        else:
+            status_msg = "**Status:** Fim de jogo. `eu sempre ganho 🤖`"
     else:
-        status_msg = "**Status:** Sua vez!"
+        print(f"Não encontrei o movimento {move} no README")
+        return
 
-    content = re.sub(r"\*\*Status:\*\*.*", status_msg, content)
+    # 5. Atualiza o Status (ajustado para o seu texto atual)
+    content = re.sub(r"Status:.*", f"Status: {status_msg}", content)
 
+    # 6. Salva o arquivo
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(content)
+    print("Sucesso: README atualizado!")
 
 if __name__ == "__main__":
     main()
