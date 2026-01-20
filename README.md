@@ -12,10 +12,40 @@
 
 ---
 ---
-### 🕹️ Desafio: Jogo da Velha 
+### 🕹️ Jogo da Velha 
+Bem-vindo ao Jogo da Velha interativo!
+Aqui você pode jogar contra a IA diretamente pelo meu perfil do GitHub. O tabuleiro está logo abaixo e cada jogada é registrada no próprio README.md.
 
-Eu te desafio a ganhar de mim. “Clique em um espaço vazio e depois em Submit new issue para jogar.”
+🎮 Como funciona
+Tabuleiro no perfil
 
+O jogo aparece como uma tabela com ❌, ⭕ e espaços vazios.
+
+Cada espaço vazio é um link clicável.
+
+Clique para jogar
+
+Ao clicar em um espaço vazio, você será levado para a página de criação de uma nova Issue.
+
+O título da Issue já vem preenchido com a coordenada da jogada (ex.: tttp:0,2).
+
+Confirme sua jogada
+
+Basta clicar em “Submit new issue”.
+
+Isso dispara o GitHub Actions, que executa o motor do jogo (engine.py).
+
+IA responde automaticamente
+
+O script atualiza o README.md com sua jogada (❌) e a resposta da IA (⭕).
+
+Um commit é feito na branch principal do repositório.
+
+Tabuleiro atualizado no perfil
+
+Após alguns segundos, o tabuleiro atualizado aparece no meu perfil.
+
+Você verá sua jogada e a resposta da IA.
 | | | |
 | :---: | :---: | :---: |
 | ⭕ | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:0,1) | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:0,2) |
