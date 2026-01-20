@@ -1,0 +1,28 @@
+name: Jogo da Velha
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  play:
+    if: startsWith(github.event.issue.title, 'tttp:')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Rodar Jogada da IA
+        run: python scripts/engine.py
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Fechar Issue
+        run: gh issue close ${{ github.event.issue.number }} --comment "Jogada realizada!"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
