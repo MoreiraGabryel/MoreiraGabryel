@@ -1,9 +1,5 @@
-- uses: actions/checkout@v3 with: ref: main
-permissions:
-  contents: write
-  issues: write
-
 name: Jogo da Velha
+
 on:
   issues:
     types: [opened]
@@ -15,18 +11,20 @@ jobs:
     permissions:
       contents: write
       issues: write
+
     steps:
       - name: Checkout do Código
         uses: actions/checkout@v3
+        with:
+          ref: main   # ajuste se sua branch default for "master"
 
       - name: Configurar Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-
       - name: Executar Jogada
-        run: python scripts/engine.py
+        run: python scripts/engine.py   # ou "python engine.py" se estiver na raiz
         env:
           ISSUE_TITLE: ${{ github.event.issue.title }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
