@@ -24,6 +24,7 @@ jobs:
         with:
           python-version: '3.x'
 
+
       - name: Executar Jogada
         run: python scripts/engine.py
         env:
