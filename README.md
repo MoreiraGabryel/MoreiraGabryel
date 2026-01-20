@@ -41,8 +41,8 @@ Exemplo: tttp:0,2 → canto superior direito.
 
 | | | |
 | :---: | :---: | :---: |
-| ⭕ | ⭕ | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:0,2) |
-| ❌ | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:1,2) |
+| ⭕ | ⭕ | ❌ |
+| ❌ | ⭕ |
 | ❌ |
 
   
