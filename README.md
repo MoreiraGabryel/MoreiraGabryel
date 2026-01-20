@@ -12,18 +12,11 @@
 
 ---
 ### 🕹️ Desafio: Jogo da Velha 
-Eu te desafio a ganhar de mim. **Eu nunca perco** . 
+Eu te desafio a ganhar de mim. **Dica:** Eu nunca perco. 🤖
 
 | | | |
 | :---: | :---: | :---: |
-| [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:0,0) | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:0,1) | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:0,2) |
-| [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:1,0) | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:1,1) | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:1,2) |
-| [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:2,0) | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:2,1) | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:2,2) |
-
-> **Status:** Sua vez! Clique em um espaço vazio para jogar.
-> **Mensagem do Sistema:** *Aguardando sua derrota...*
----
-
+| [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:0,0) | ...
 
   
   
