@@ -48,9 +48,9 @@ Após alguns segundos, o tabuleiro atualizado aparece no meu perfil.
 Você verá sua jogada e a resposta da IA.
 | | | |
 | :---: | :---: | :---: |
-| ⭕ | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:0,1) | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:0,2) |
+| ⭕ | ⭕ | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:0,2) |
 | ❌ | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:1,2) |
-| [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:2,0) | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:2,1) | [ ](https://github.com/MoreiraGabryel/MoreiraGabryel/issues/new?title=tttp:2,2) |
+| ❌ |
 
   
   
