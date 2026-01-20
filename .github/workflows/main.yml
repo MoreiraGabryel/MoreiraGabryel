@@ -1,3 +1,4 @@
+run: python engine.py
 name: Jogo da Velha
 on:
   issues:
