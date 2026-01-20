@@ -13,62 +13,31 @@
 ---
 ---
 ### 🕹️ Jogo da Velha 
-Bem-vindo ao Jogo da Velha interativo!
-Aqui você pode jogar contra a IA diretamente pelo meu perfil do GitHub. O tabuleiro está logo abaixo e cada jogada é registrada no próprio README.md.
+🎮 Como jogar
+Clique em um espaço vazio do tabuleiro.
 
-🎮 Como funciona
-Tabuleiro no perfil
+Isso abre uma nova Issue já com a coordenada da jogada (tttp:linha,coluna).
 
-O jogo aparece como uma tabela com ❌, ⭕ e espaços vazios.
+Clique em “Submit new issue” para confirmar.
 
-Cada espaço vazio é um link clicável.
+O GitHub Actions atualiza o README.md com sua jogada (❌) e a resposta da IA (⭕).
 
-Clique para jogar
+Após alguns segundos, o tabuleiro atualizado aparece no meu perfil.
 
-Ao clicar em um espaço vazio, você será levado para a página de criação de uma nova Issue.
-
-
-
-Confirme sua jogada
-
-Basta clicar em “Submit new issue”.
-
-📌 O que é tttp:0,2
-Esse texto é o título da Issue que o workflow usa para saber qual jogada você fez.
-
-tttp é só um prefixo que você definiu no código (if "tttp:" not in issue_title:).
-Ele serve para identificar que a Issue é uma jogada do jogo da velha.
-
-0,2 são as coordenadas da célula do tabuleiro onde você quer jogar.
-
-🧩 Como funcionam as coordenadas
-O tabuleiro é uma matriz 3x3, numerada assim:
+📌 Coordenadas
+O tabuleiro é uma matriz 3x3:
 
 Código
 (0,0) | (0,1) | (0,2)
 (1,0) | (1,1) | (1,2)
 (2,0) | (2,1) | (2,2)
-O primeiro número é a linha (de cima para baixo).
+Primeiro número = linha (de cima para baixo).
 
-O segundo número é a coluna (da esquerda para a direita).
+Segundo número = coluna (da esquerda para a direita).
 
-Então:
-
-tttp:0,2 → linha 0, coluna 2 → canto superior direito.
-
-tttp:1,0 → linha 1, coluna 0 → meio à esquerda.
-
-tttp:2,2 → linha 2, coluna 2 → canto inferior direito.
+Exemplo: tttp:0,2 → canto superior direito.
 
 
-
-O script atualiza o README.md com sua jogada (❌) e a resposta da IA (⭕).
-
-Um commit é feito na branch principal do repositório.
-
-Tabuleiro atualizado no perfil
-
-Após alguns segundos, o tabuleiro atualizado aparece no meu perfil.
 
 | | | |
 | :---: | :---: | :---: |
