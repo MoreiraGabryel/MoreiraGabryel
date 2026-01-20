@@ -13,15 +13,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+
       - name: Rodar Jogada da IA
         run: python scripts/engine.py
         env:
           ISSUE_TITLE: ${{ github.event.issue.title }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Fechar Issue
         run: gh issue close ${{ github.event.issue.number }} --comment "Jogada realizada!"
         env:
