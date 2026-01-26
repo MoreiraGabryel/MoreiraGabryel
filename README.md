@@ -3,7 +3,19 @@
 <br clear="both">
 
 <p align="center">
-  👋 My name is Marcos Gabryel, and I'm studying Systems Analysis and Development, and I'm from São Paulo.
+  
+ Java Developer Junior com experiência em Spring Boot, além de conhecimentos em Python e JavaScript.
+Tenho interesse em desenvolvimento backend, APIs RESTful e boas práticas de código.
+Busco constantemente aprender novas tecnologias e contribuir com projetos open source e soluções inovadoras.
+
+🛠️ Tecnologias e Ferramentas
+Linguagens: Java, Python, JavaScript
+
+Frameworks: Spring Boot, Express.js
+
+Banco de Dados: PostgreSQL, MySQL
+
+Ferramentas: Git, Maven, Docker, Swagger
 </p>
 
 <p align="center">
