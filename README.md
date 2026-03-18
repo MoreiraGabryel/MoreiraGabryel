@@ -8,7 +8,17 @@
 
 <br/>
 
-<a href="https://linkedin.com/in/marcos-gabryel-4b2594360" target="_blank">
+
+
+<div align="center">
+
+### 🟢 Disponível para novas oportunidades
+
+<p>
+  <img src="https://skillicons.dev/icons?i=java" height="40" alt="Java"/>
+  <img src="https://skillicons.dev/icons?i=spring" height="40" alt="Spring Boot"/>
+  <img src="https://skillicons.dev/icons?i=docker" height="40" alt="Docker"/>
+  <a href="https://linkedin.com/in/marcos-gabryel-4b2594360" target="_blank">
   <img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn"/>
 </a>
 &nbsp;
@@ -19,10 +29,17 @@
 <a href="https://github.com/MoreiraGabryel" target="_blank">
   <img src="https://skillicons.dev/icons?i=github" height="40" alt="GitHub"/>
 </a>
+</p>
+
+**💼 Buscando vaga como:** Desenvolvedor Backend / Estágio 
+**📍 Localização:*Guarulhos-SP* Brasil — Remoto ou Presencial  
+**⚡ Disponibilidade:** Imediata  
+**📬 Contato:** marcosgabryel25@gmail.com 
 
 </div>
 
----
+
+
 
 ## ☕ Sobre mim
 
@@ -126,6 +143,15 @@ public class MoreiraGabryel {
   <img src="https://skillicons.dev/icons?i=docker" height="40" alt="Docker"/>
   <img src="https://skillicons.dev/icons?i=kubernetes" height="40" alt="Kubernetes"/>
 </p>
+
+🐍 Contribuições
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MoreiraGabryel/MoreiraGabryel/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MoreiraGabryel/MoreiraGabryel/output/github-contribution-grid-snake.svg"/>
+  <img alt="github-snake" src="https://raw.githubusercontent.com/MoreiraGabryel/MoreiraGabryel/output/github-contribution-grid-snake.svg"/>
+</picture>
+</div>
 
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
 ![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
