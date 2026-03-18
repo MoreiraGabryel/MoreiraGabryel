@@ -1,0 +1,100 @@
+<div align="center">
+
+
+<img src="https://media.tenor.com/Mf57HFtQHMYAAAA1/static-shock.webp" alt="GIF do personagem Static Shock" width="200px"/>
+
+<br/>
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+MoreiraGabryel!+%F0%9F%91%8B;Java+%26+Spring+Boot+Developer;Always+learning%2C+always+building.)
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/SEU_LINKEDIN)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:SEU_EMAIL@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MoreiraGabryel)
+
+</div>
+
+---
+
+## 🧑‍💻 Sobre mim
+
+```java
+public class MoreiraGabryel {
+
+    String[] focus     = { "Java", "Spring Boot", "Docker", "REST APIs" };
+    String   goal      = "Buscando minha primeira oportunidade como Dev Backend";
+    String   currently = "Construindo projetos e evoluindo todo dia ☕";
+    boolean  openToWork = true;
+
+}
+```
+
+---
+
+## 🚀 Tech Stack
+
+### 🔥 Principal
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+### 🌐 Frontend & Outros
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+### 🗄️ Banco de Dados & Ferramentas
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=MoreiraGabryel&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MoreiraGabryel&layout=compact&langs_count=7&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+<div align="center">
+
+![GitHub Streak](https://streak-stats.demolab.com?user=MoreiraGabryel&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D)
+
+</div>
+
+---
+
+## 📌 Projetos em Destaque
+
+
+| Projeto | Descrição | Tecnologias |
+|--------|-----------|-------------|
+| [🛒 Products API](https://github.com/MoreiraGabryel/Produtos--API.git) | API RESTful de gerenciamento de produtos com CRUD completo | Java · Spring Boot · Postman |
+| [📦 SobreLanches API prototype 2](https://github.com/MoreiraGabryel/SobreLanches-app.git) | API RESTful - Apredendo - PROTOTYPE| Java · H2|
+| [🌐 Cadastro API ](https://github.com/MoreiraGabryel/Cadastros.git) | permite gerenciar usuários em um sistema. Ela oferece endpoints para criação, leitura, atualização e exclusão (CRUD) de registros, com suporte a validações e persistência em banco de dados relacional.
+
+---
+
+## 🌱 Atualmente aprendendo
+
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
+
+---
+
+<div align="center">
+
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=MoreiraGabryel.MoreiraGabryel)
+
+**⭐ Se algum projeto te ajudou, deixa uma estrela! Significa muito 🚀**
+
+</div>
