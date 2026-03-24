@@ -131,8 +131,8 @@ public class MoreiraGabryel {
 <div align="center">
 
 [![Cadastros API](https://github-readme-stats.vercel.app/api/pin/?username=MoreiraGabryel&repo=Cadastros&theme=tokyonight&hide_border=true&show_icons=true&icon_color=F89820&title_color=F89820&text_color=c9d1d9)](https://github.com/MoreiraGabryel/Cadastros)
+[![Arquitetura Spring](https://github-readme-stats.vercel.app/api/pin/?username=MoreiraGabryel&repo=ArquiteturaSpring&theme=tokyonight&hide_border=true&show_icons=true&icon_color=F89820&title_color=F89820&text_color=c9d1d9)](https://github.com/MoreiraGabryel/ArquiteturaSpring.git)
 
-</div>
 
 ---
 
