@@ -8,7 +8,7 @@
 
 <br/>
 
-
+</div>
 
 <div align="center">
 
@@ -31,28 +31,23 @@
 </a>
 </p>
 
-**💼 Buscando vaga como:** Desenvolvedor Backend / Estágio 
-**📍 Localização:*Guarulhos-SP* Brasil — Remoto ou Presencial  
+**💼 Buscando vaga como:** Desenvolvedor Backend / Estágio  
+**📍 Localização:** Guarulhos-SP, Brasil — Remoto ou Presencial  
 **⚡ Disponibilidade:** Imediata  
 **📬 Contato:** marcosgabryel25@gmail.com 
 
 </div>
 
-
-
+---
 
 ## ☕ Sobre mim
-
 ```java
 public class MoreiraGabryel {
 
-    
     private String[] stack = { "Java", "Spring Boot", "Docker", "REST APIs" };
 
-    
     private String goal = "Buscando minha primeira oportunidade como Dev Backend";
 
-    
     private String status = "Construindo projetos reais e evoluindo todo dia";
 
     private boolean openToWork = true;
@@ -95,21 +90,15 @@ public class MoreiraGabryel {
 
 ---
 
-## 📊 GitHub Stats
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=MoreiraGabryel&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github&show=reviews,discussions_started,prs_merged" height="180em"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MoreiraGabryel&layout=donut&langs_count=6&theme=tokyonight&hide_border=true" height="180em"/>
-
-</div>
 
 <div align="center">
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=MoreiraGabryel&theme=tokyonight-duo&hide_border=true&date_format=j%20M%5B%20Y%5D&fire=FF6B35&ring=F89820&currStreakLabel=F89820)](https://git.io/streak-stats)
 
 </div>
-
 
 <div align="center">
 
@@ -126,13 +115,12 @@ public class MoreiraGabryel {
 [![Products API](https://github-readme-stats.vercel.app/api/pin/?username=MoreiraGabryel&repo=Produtos--API&theme=tokyonight&hide_border=true&show_icons=true&icon_color=F89820&title_color=F89820&text_color=c9d1d9)](https://github.com/MoreiraGabryel/Produtos--API)
 [![SobreLanches App](https://github-readme-stats.vercel.app/api/pin/?username=MoreiraGabryel&repo=SobreLanches-app&theme=tokyonight&hide_border=true&show_icons=true&icon_color=F89820&title_color=F89820&text_color=c9d1d9)](https://github.com/MoreiraGabryel/SobreLanches-app)
 
-</div>
 
 <div align="center">
 
-[![Cadastros API](https://github-readme-stats.vercel.app/api/pin/?username=MoreiraGabryel&repo=Cadastros&theme=tokyonight&hide_border=true&show_icons=true&icon_color=F89820&title_color=F89820&text_color=c9d1d9)](https://github.com/MoreiraGabryel/Cadastros)
 [![Arquitetura Spring](https://github-readme-stats.vercel.app/api/pin/?username=MoreiraGabryel&repo=ArquiteturaSpring&theme=tokyonight&hide_border=true&show_icons=true&icon_color=F89820&title_color=F89820&text_color=c9d1d9)](https://github.com/MoreiraGabryel/ArquiteturaSpring.git)
 
+</div>
 
 ---
 
@@ -145,6 +133,7 @@ public class MoreiraGabryel {
 </p>
 
 🐍 Contribuições
+
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MoreiraGabryel/MoreiraGabryel/output/github-contribution-grid-snake-dark.svg"/>
@@ -153,9 +142,13 @@ public class MoreiraGabryel {
 </picture>
 </div>
 
+<div align="center">
+
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
 ![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![JUnit 5](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
+
+</div>
 
 ---
 
