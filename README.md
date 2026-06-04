@@ -107,18 +107,13 @@ public class MoreiraGabryel {
 </div>
 
 ---
-
 ## 📌 Projetos em Destaque
 
 <div align="center">
 
-[![Products API](https://github-readme-stats.vercel.app/api/pin/?username=MoreiraGabryel&repo=Produtos--API&theme=tokyonight&hide_border=true&show_icons=true&icon_color=F89820&title_color=F89820&text_color=c9d1d9)](https://github.com/MoreiraGabryel/Produtos--API)
+[![Free Local Business Prospecting Engine](https://github-readme-stats.vercel.app/api/pin/?username=MoreiraGabryel&repo=Free-Local-Business-Prospecting-Engine&theme=tokyonight&hide_border=true&show_icons=true&icon_color=F89820&title_color=F89820&text_color=c9d1d9)](https://github.com/MoreiraGabryel/Free-Local-Business-Prospecting-Engine)
+[![Library API](https://github-readme-stats.vercel.app/api/pin/?username=MoreiraGabryel&repo=Library-API&theme=tokyonight&hide_border=true&show_icons=true&icon_color=F89820&title_color=F89820&text_color=c9d1d9)](https://github.com/MoreiraGabryel/Library-API)
 [![SobreLanches App](https://github-readme-stats.vercel.app/api/pin/?username=MoreiraGabryel&repo=SobreLanches-app&theme=tokyonight&hide_border=true&show_icons=true&icon_color=F89820&title_color=F89820&text_color=c9d1d9)](https://github.com/MoreiraGabryel/SobreLanches-app)
-
-
-<div align="center">
-
-[![Arquitetura Spring](https://github-readme-stats.vercel.app/api/pin/?username=MoreiraGabryel&repo=ArquiteturaSpring&theme=tokyonight&hide_border=true&show_icons=true&icon_color=F89820&title_color=F89820&text_color=c9d1d9)](https://github.com/MoreiraGabryel/ArquiteturaSpring.git)
 
 </div>
 
