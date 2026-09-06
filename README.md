@@ -10,7 +10,7 @@
 
 ### 👨‍💻 Full Stack Developer • ⚙️ Automação • 🤖 Inteligência Artificial
 
-<img src="https://img.shields.io/badge/Mercado%20Livre-Rep%20ID%2FEA-FFE600?style=for-the-badge&labelColor=2D3277" alt="Mercado Livre"/>
+<img src="https://img.shields.io/badge/Mercado%20Livre-%20ID%2FEA-FFE600?style=for-the-badge&labelColor=2D3277" alt="Mercado Livre"/>
 
 <br/><br/>
 
