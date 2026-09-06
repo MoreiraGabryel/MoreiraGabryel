@@ -40,7 +40,7 @@
 ```java
 public class MoreiraGabryel {
 
-    private final String currentJob = "Rep ID/EA @ Mercado Livre";
+    private final String currentJob = "ID/EA @ Mercado Livre";
 
     private final String devProfile = "Full Stack Developer";
 
@@ -78,7 +78,7 @@ public class MoreiraGabryel {
 }
 ```
 
-Atualmente atuo como **Rep ID/EA no Mercado Livre** e, paralelamente, continuo evoluindo em **Engenharia de Software e Desenvolvimento Full Stack** por meio de projetos próprios, estudos e experimentação prática.
+Atualmente atuo como **ID/EA no Mercado Livre** e, paralelamente, continuo evoluindo em **Engenharia de Software e Desenvolvimento Full Stack** por meio de projetos próprios, estudos e experimentação prática.
 
 Meu foco técnico está principalmente em **Java, Spring Boot, APIs REST, desenvolvimento web, Docker, Linux, automação e Inteligência Artificial aplicada ao desenvolvimento de software**.
 
