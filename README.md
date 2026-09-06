@@ -382,7 +382,7 @@ Também venho aprofundando conhecimentos em:
 
 # 🎯 Direção profissional
 
-Atualmente atuo no **Mercado Livre como Rep ID/EA** enquanto continuo expandindo minha atuação técnica em **Engenharia de Software e Desenvolvimento Full Stack**.
+Atualmente atuo no **Mercado Livre como Team  ID/EA** enquanto continuo expandindo minha atuação técnica em **Engenharia de Software e Desenvolvimento Full Stack**.
 
 Meu objetivo é continuar evoluindo principalmente na interseção entre:
 
