@@ -9,7 +9,7 @@ Identidade visual do perfil de Marcos Gabryel: grafite, azul elétrico e amarelo
 - `scripts/freeze_snake.py`: versões sem movimento do calendário da cobrinha.
 - `.github/workflows/snake.yml`: geração e publicação conjunta do hero e da cobrinha.
 - `assets/`: botões SVG locais, ícones de tecnologias, WebP original do Choque Estático e primeiro quadro estático.
-- Branch `output`: oito variantes do hero, quatro variantes da cobrinha e `activity.json`.
+- Branch `output`: quatro variantes do hero, seis variantes da cobrinha e `activity.json`.
 
 ## Dados e atualização
 
@@ -47,7 +47,8 @@ gh workflow run snake.yml --ref main --repo MoreiraGabryel/MoreiraGabryel
 O README usa Markdown e HTML permitido pelo GitHub. A arte é exibida por `<img>`/`<picture>`, nunca SVG inline. Os SVGs têm estilos autocontidos, não usam scripts, fontes remotas ou recursos externos. Os links ficam no Markdown.
 
 - Desktop: `1200 × 584`; mobile: `600 × 800`, selecionado até 600px de viewport.
-- Temas claro e escuro via `<picture>`.
+- Temas claro e escuro do hero e da cobrinha via CSS interno do SVG, herdando `color-scheme` do GitHub. Isso também respeita um tema escolhido manualmente diferente do sistema operacional.
+- O `<picture>` do hero seleciona somente tamanho e movimento. Não combinar essas condições com `prefers-color-scheme`: o componente `themed-picture` do GitHub reescreve as condições de tema quando o visitante escolhe um tema manual, descartando as outras condições. Os ícones da stack usam apenas condições simples de tema.
 - Movimento reduzido: imagens estáticas e `prefers-reduced-motion` no CSS dos SVGs animados.
 - O nome, a função e os dados permanecem visíveis desde o primeiro quadro.
 - A animação WebP também tem um primeiro quadro PNG para movimento reduzido.

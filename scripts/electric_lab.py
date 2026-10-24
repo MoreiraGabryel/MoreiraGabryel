@@ -127,8 +127,18 @@ def monogram(x, y, scale=1):
     </g>'''
 
 
-def render_hero(activity, theme="dark", mobile=False, static=False):
-    colors = THEMES[theme]
+def render_hero(activity, theme="auto", mobile=False, static=False):
+    # SVG images inherit color-scheme from GitHub, including a manually chosen
+    # theme. Keeping theme selection here avoids themed-picture rewriting
+    # compound media conditions and accidentally selecting the mobile layout.
+    if theme == "auto":
+        colors = {key: f"var(--{key})" for key in THEMES["dark"]}
+        dark_vars = ";".join(f"--{key}:{value}" for key, value in THEMES["dark"].items())
+        light_vars = ";".join(f"--{key}:{value}" for key, value in THEMES["light"].items())
+        theme_css = f"svg {{{dark_vars}}} @media (prefers-color-scheme: light) {{ svg {{{light_vars}}} }}"
+    else:
+        colors = THEMES[theme]
+        theme_css = ""
     width, height = (600, 800) if mobile else (1200, 584)
     margin = 36 if mobile else 52
     total, active = activity["total"], activity["active_days"]
@@ -171,6 +181,7 @@ def render_hero(activity, theme="dark", mobile=False, static=False):
           <stop offset="1" stop-color="{colors['yellow']}"/></linearGradient>
       </defs>
       <style>
+        {theme_css}
         text {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }}
         .mono {{ font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }}
         {styles}
@@ -255,15 +266,14 @@ def render_hero(activity, theme="dark", mobile=False, static=False):
 
 def build(activity, output):
     output.mkdir(parents=True, exist_ok=True)
-    for theme in THEMES:
-        for mobile in (False, True):
-            suffix = "-mobile" if mobile else ""
-            for static in (False, True):
-                motion = "-static" if static else ""
-                filename = f"hero-{theme}{suffix}{motion}.svg"
-                (output / filename).write_text(
-                    render_hero(activity, theme, mobile, static), encoding="utf-8"
-                )
+    for mobile in (False, True):
+        suffix = "-mobile" if mobile else ""
+        for static in (False, True):
+            motion = "-static" if static else ""
+            filename = f"hero{suffix}{motion}.svg"
+            (output / filename).write_text(
+                render_hero(activity, "auto", mobile, static), encoding="utf-8"
+            )
     (output / "activity.json").write_text(
         json.dumps(activity, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )

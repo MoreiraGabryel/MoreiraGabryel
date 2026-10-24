@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from electric_lab import build, normalize, render_hero
-from freeze_snake import freeze
+from freeze_snake import adaptive, freeze
 
 
 class ElectricLabTests(unittest.TestCase):
@@ -59,12 +59,13 @@ class ElectricLabTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             build(data, Path(directory))
             assets = list(Path(directory).glob("*.svg"))
-            self.assertEqual(len(assets), 8)
+            self.assertEqual(len(assets), 4)
             for asset in assets:
                 source = asset.read_text()
                 root = ET.fromstring(source)
                 self.assertFalse(root.findall(".//{http://www.w3.org/2000/svg}script"))
                 self.assertIn("&lt;script&gt;", source)
+                self.assertIn("@media (prefers-color-scheme: light)", source)
                 if "static" in asset.name:
                     self.assertNotIn("@keyframes", source)
                 else:
@@ -72,10 +73,11 @@ class ElectricLabTests(unittest.TestCase):
 
     def test_freeze_preserves_snake_geometry(self):
         source = '<svg xmlns="http://www.w3.org/2000/svg"><style>@keyframes a {to {opacity:0}}</style><rect width="10" height="10"/></svg>'
-        result = freeze(source)
+        result = freeze(adaptive(source))
         root = ET.fromstring(result)
         self.assertEqual(len(root.findall("{http://www.w3.org/2000/svg}rect")), 1)
         self.assertIn("animation: none !important", result)
+        self.assertIn("--cs:#8C6200", result)
 
 
 if __name__ == "__main__":
