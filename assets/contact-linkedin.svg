@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="156" height="42" viewBox="0 0 156 42" role="img" aria-label="LinkedIn">
+  <rect x=".5" y=".5" width="155" height="41" rx="9" fill="#101B2A" stroke="#29425D"/>
+  <g fill="none" stroke="#53C7FF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="16" y="12" width="18" height="18" rx="3"/>
+    <path d="M21 20v6m0-10v.1m5 10v-6m0 2c0-3 5-3 5 0v4"/>
+  </g>
+  <text x="47" y="26" fill="#F0F5FC" font-family="Arial, sans-serif" font-size="14">LinkedIn</text>
+  <path d="M130 24l7-7m-7 0h7v7" fill="none" stroke="#F4D35E" stroke-width="1.5"/>
+</svg>
