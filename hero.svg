@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="584"
+      viewBox="0 0 1200 584" role="img" aria-labelledby="title desc">
+      <title id="title">Marcos Gabryel — Electric Lab</title>
+      <desc id="desc">Desenvolvimento Full Stack, automação e agentes de IA.
+      136 contribuições em 23 dias ativos entre 2026-10-02 e 2026-10-31.
+      Cada ponto da malha representa um dia; altura e intensidade indicam contribuições.
+      Gerado em 2026-10-31T20:29:11Z. Último projeto público: FORme-MoreiraGabryel.</desc>
+      <defs>
+        <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+          <circle cx="1" cy="1" r="1" fill="var(--line)" opacity=".5"/>
+        </pattern>
+        <radialGradient id="aura">
+          <stop stop-color="var(--blue)" stop-opacity=".12"/>
+          <stop offset="1" stop-color="var(--blue)" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="edge"><stop stop-color="var(--blue)"/>
+          <stop offset=".7" stop-color="var(--blue)" stop-opacity=".15"/>
+          <stop offset="1" stop-color="var(--yellow)"/></linearGradient>
+      </defs>
+      <style>
+        svg {--bg:#0B1018;--panel:#101B2A;--ink:#F0F5FC;--muted:#A3B4CB;--line:#23374E;--blue:#53C7FF;--yellow:#F4D35E;--dim:#203C55;--grid:#142233} @media (prefers-color-scheme: light) { svg {--bg:#F3F7FC;--panel:#E6EFF9;--ink:#12243B;--muted:#4B617B;--line:#BDCEE1;--blue:#0969B5;--yellow:#8C6200;--dim:#B4CEE6;--grid:#E1EAF4} }
+        text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
+        .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+        .bg { fill: var(--bg); }
+.panel { fill: var(--panel); }
+.ink { fill: var(--ink); }
+.muted { fill: var(--muted); }
+.line { fill: var(--line); }
+.blue { fill: var(--blue); }
+.yellow { fill: var(--yellow); }
+.dim { fill: var(--dim); }
+.grid { fill: var(--grid); }
+        .wire { fill: none; stroke: var(--line); stroke-width: 1.5; }
+        .accent-wire { fill: none; stroke: var(--blue); stroke-width: 2; }
+        .spark { fill: var(--yellow); }
+        .monogram { fill: none; stroke: var(--blue); stroke-width: 5; stroke-linejoin: bevel; }
+        .current { fill: none; stroke: var(--yellow); stroke-width: 5;
+          stroke-dasharray: 24 476; stroke-linecap: round; }
+        .signal { fill: none; stroke: var(--yellow); stroke-width: 2;
+          stroke-dasharray: 18 482; }
+        
+      .orbit { animation: orbit 24s linear infinite; }
+      .current { animation: flow 7s linear infinite; }
+      .signal { animation: flow 12s linear infinite; }
+      @keyframes orbit { to { transform: rotate(360deg); } }
+      @keyframes flow { to { stroke-dashoffset: -500; } }
+      @media (prefers-reduced-motion: reduce) {
+        .orbit, .current, .signal { animation: none; }
+      }
+    
+      </style>
+      <rect x="1" y="1" width="1198" height="582" rx="24"
+        fill="var(--bg)" stroke="var(--line)"/>
+      <rect x="20" y="20" width="1160" height="544" rx="16" fill="url(#grid)"/>
+      <path d="M52 1 H1148" stroke="url(#edge)" stroke-width="3"/>
+    
+<text x="52" y="51" font-size="14" class="blue" letter-spacing="3">MG / ELECTRIC LAB</text>
+<text x="1148" y="51" font-size="14" class="muted" text-anchor="end">@MoreiraGabryel</text>
+<text x="52" y="147" font-size="76" class="ink" font-weight="750" letter-spacing="-4">Marcos Gabryel.</text>
+<text x="54" y="192" font-size="17" class="blue" letter-spacing="3">FULL STACK DEVELOPER</text>
+<text x="52" y="248" font-size="25" class="ink" >Código, automação e ideias em movimento.</text>
+<text x="52" y="289" font-size="14" class="muted" letter-spacing="1.5">JAVA / SPRING / TYPESCRIPT / REACT</text>
+<g transform="translate(978 198) scale(1)" aria-hidden="true">
+      <circle r="137" fill="url(#aura)"/>
+      <circle r="122" class="wire" stroke-dasharray="2 12"/>
+      <circle r="103" class="wire"/>
+      <g class="orbit"><path d="M0 -122 A122 122 0 0 1 122 0" class="accent-wire"/>
+        <circle cx="122" r="4" class="spark"/></g>
+      <path d="M-150 -60 H-116 L-88 -32 M150 60 H116 L88 32
+               M-65 -150 V-120 L-44 -99 M65 150 V120 L44 99" class="wire"/>
+      <path d="M-72 43 V-42 L-39 -8 L-6 -42 V43
+               M73 -42 H37 L15 -20 V22 L37 43 H77 V4 H48"
+            class="monogram"/>
+      <path d="M-72 43 V-42 L-39 -8 L-6 -42 V43
+               M73 -42 H37 L15 -20 V22 L37 43 H77 V4 H48"
+            class="current"/>
+      <circle cx="-72" cy="43" r="4" class="spark"/>
+      <circle cx="48" cy="4" r="4" class="spark"/>
+      <path d="M-12 67 H16 L5 83 H25 L-7 111 L0 91 H-17 Z" class="spark"/>
+    </g>
+<text x="52" y="367" font-size="13" class="blue" letter-spacing="2">30 DIAS EM CIRCUITO</text>
+<text x="1148" y="367" font-size="16" class="muted" text-anchor="end">136 contribuições  /  23 dias ativos</text>
+<path d="M52 327 H1148" class="wire"/>
+<path d="M52 475 H1148" class="wire" stroke-dasharray="3 6"/>
+<path d="M52.0 475.0 L89.79 475.0 L127.59 475.0 L165.38 435.5 L203.17 435.5 L240.97 457.33 L278.76 457.33 L316.55 457.33 L354.34 475.0 L392.14 457.33 L429.93 457.33 L467.72 428.26 L505.52 457.33 L543.31 475.0 L581.1 435.5 L618.9 450.02 L656.69 439.67 L694.48 475.0 L732.28 402.17 L770.07 444.4 L807.86 428.26 L845.66 439.67 L883.45 398.0 L921.24 428.26 L959.03 431.73 L996.83 419.14 L1034.62 419.14 L1072.41 475.0 L1110.21 450.02 L1148.0 402.17" class="accent-wire" opacity=".6"/>
+<path d="M52.0 475.0 L89.79 475.0 L127.59 475.0 L165.38 435.5 L203.17 435.5 L240.97 457.33 L278.76 457.33 L316.55 457.33 L354.34 475.0 L392.14 457.33 L429.93 457.33 L467.72 428.26 L505.52 457.33 L543.31 475.0 L581.1 435.5 L618.9 450.02 L656.69 439.67 L694.48 475.0 L732.28 402.17 L770.07 444.4 L807.86 428.26 L845.66 439.67 L883.45 398.0 L921.24 428.26 L959.03 431.73 L996.83 419.14 L1034.62 419.14 L1072.41 475.0 L1110.21 450.02 L1148.0 402.17" class="signal"/>
+<path d="M52.0 475.0 V475" class="wire"/>
+<circle cx="52.0" cy="475.0" r="4.5" class="dim"><title>2026-10-02: 0 contribuições</title></circle>
+<path d="M89.79 475.0 V475" class="wire"/>
+<circle cx="89.79" cy="475.0" r="4.5" class="dim"><title>2026-10-03: 0 contribuições</title></circle>
+<path d="M127.59 475.0 V475" class="wire"/>
+<circle cx="127.59" cy="475.0" r="4.5" class="dim"><title>2026-10-04: 0 contribuições</title></circle>
+<path d="M165.38 435.5 V475" class="wire"/>
+<circle cx="165.38" cy="435.5" r="4.5" class="blue"><title>2026-10-05: 5 contribuições</title></circle>
+<path d="M203.17 435.5 V475" class="wire"/>
+<circle cx="203.17" cy="435.5" r="4.5" class="blue"><title>2026-10-06: 5 contribuições</title></circle>
+<path d="M240.97 457.33 V475" class="wire"/>
+<circle cx="240.97" cy="457.33" r="4.5" class="blue"><title>2026-10-07: 1 contribuições</title></circle>
+<path d="M278.76 457.33 V475" class="wire"/>
+<circle cx="278.76" cy="457.33" r="4.5" class="blue"><title>2026-10-08: 1 contribuições</title></circle>
+<path d="M316.55 457.33 V475" class="wire"/>
+<circle cx="316.55" cy="457.33" r="4.5" class="blue"><title>2026-10-09: 1 contribuições</title></circle>
+<path d="M354.34 475.0 V475" class="wire"/>
+<circle cx="354.34" cy="475.0" r="4.5" class="dim"><title>2026-10-10: 0 contribuições</title></circle>
+<path d="M392.14 457.33 V475" class="wire"/>
+<circle cx="392.14" cy="457.33" r="4.5" class="blue"><title>2026-10-11: 1 contribuições</title></circle>
+<path d="M429.93 457.33 V475" class="wire"/>
+<circle cx="429.93" cy="457.33" r="4.5" class="blue"><title>2026-10-12: 1 contribuições</title></circle>
+<path d="M467.72 428.26 V475" class="wire"/>
+<circle cx="467.72" cy="428.26" r="4.5" class="blue"><title>2026-10-13: 7 contribuições</title></circle>
+<path d="M505.52 457.33 V475" class="wire"/>
+<circle cx="505.52" cy="457.33" r="4.5" class="blue"><title>2026-10-14: 1 contribuições</title></circle>
+<path d="M543.31 475.0 V475" class="wire"/>
+<circle cx="543.31" cy="475.0" r="4.5" class="dim"><title>2026-10-15: 0 contribuições</title></circle>
+<path d="M581.1 435.5 V475" class="wire"/>
+<circle cx="581.1" cy="435.5" r="4.5" class="blue"><title>2026-10-16: 5 contribuições</title></circle>
+<path d="M618.9 450.02 V475" class="wire"/>
+<circle cx="618.9" cy="450.02" r="4.5" class="blue"><title>2026-10-17: 2 contribuições</title></circle>
+<path d="M656.69 439.67 V475" class="wire"/>
+<circle cx="656.69" cy="439.67" r="4.5" class="blue"><title>2026-10-18: 4 contribuições</title></circle>
+<path d="M694.48 475.0 V475" class="wire"/>
+<circle cx="694.48" cy="475.0" r="4.5" class="dim"><title>2026-10-19: 0 contribuições</title></circle>
+<path d="M732.28 402.17 V475" class="wire"/>
+<circle cx="732.28" cy="402.17" r="4.5" class="blue"><title>2026-10-20: 17 contribuições</title></circle>
+<path d="M770.07 444.4 V475" class="wire"/>
+<circle cx="770.07" cy="444.4" r="4.5" class="blue"><title>2026-10-21: 3 contribuições</title></circle>
+<path d="M807.86 428.26 V475" class="wire"/>
+<circle cx="807.86" cy="428.26" r="4.5" class="blue"><title>2026-10-22: 7 contribuições</title></circle>
+<path d="M845.66 439.67 V475" class="wire"/>
+<circle cx="845.66" cy="439.67" r="4.5" class="blue"><title>2026-10-23: 4 contribuições</title></circle>
+<path d="M883.45 398.0 V475" class="wire"/>
+<circle cx="883.45" cy="398.0" r="4.5" class="blue"><title>2026-10-24: 19 contribuições</title></circle>
+<path d="M921.24 428.26 V475" class="wire"/>
+<circle cx="921.24" cy="428.26" r="4.5" class="blue"><title>2026-10-25: 7 contribuições</title></circle>
+<path d="M959.03 431.73 V475" class="wire"/>
+<circle cx="959.03" cy="431.73" r="4.5" class="blue"><title>2026-10-26: 6 contribuições</title></circle>
+<path d="M996.83 419.14 V475" class="wire"/>
+<circle cx="996.83" cy="419.14" r="4.5" class="blue"><title>2026-10-27: 10 contribuições</title></circle>
+<path d="M1034.62 419.14 V475" class="wire"/>
+<circle cx="1034.62" cy="419.14" r="4.5" class="blue"><title>2026-10-28: 10 contribuições</title></circle>
+<path d="M1072.41 475.0 V475" class="wire"/>
+<circle cx="1072.41" cy="475.0" r="4.5" class="dim"><title>2026-10-29: 0 contribuições</title></circle>
+<path d="M1110.21 450.02 V475" class="wire"/>
+<circle cx="1110.21" cy="450.02" r="4.5" class="blue"><title>2026-10-30: 2 contribuições</title></circle>
+<path d="M1148.0 402.17 V475" class="wire"/>
+<circle cx="1148.0" cy="402.17" r="4.5" class="blue"><title>2026-10-31: 17 contribuições</title></circle>
+<text x="52" y="511" font-size="12" class="muted" >02.10 — 31.10.2026</text>
+<text x="1148" y="511" font-size="11" class="muted" text-anchor="end" letter-spacing="1">1 PONTO = 1 DIA</text>
+<text x="52" y="552" font-size="13" class="muted" >ÚLTIMO PUSH PÚBLICO / FORme-MoreiraGabryel</text>
+<text x="1148" y="552" font-size="11" class="muted" text-anchor="end">SNAPSHOT / 31.10.2026 20:29 UTC</text>
+</svg>
